@@ -1,12 +1,12 @@
 - **Date :** 2026-08-28
 - **Prompt :** "Generate a portfolio website example with a green and black color scheme with the following keywords: convergent, juxtaposed, dynamic, Foncé Transparent Saturé Flou"
 - **Outil :** Figma Make
-- **Résultat :** ![Résultat](./preproduction/maquetteai1.png)
+- **Résultat :** ![Résultat](./maquetteai1.png)
 
 - **Date :** 2026-09-04
 - **Prompt :** "Use the image attached as inspiration. Design a portfolio website to showcase projects with a green and black color palette."
 - **Outil :** Figma Make
-- **Résultat :** ![Résultat](./preproduction/maquetteai2.png)
+- **Résultat :** ![Résultat](./maquetteai2.png)
 
 1. Qu'est-ce que j'ai accompli depuis le dernier bloc?
     J'ai accompli la préproduction et l'organisation du projet, dont la maquette et la planification du portfolio.
