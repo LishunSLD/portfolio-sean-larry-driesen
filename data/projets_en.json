@@ -1,0 +1,23 @@
+{
+    "categories": ["Branding", "Animation", "Video", "Web"],
+    "projects": [
+        {
+            "title": "Visual identity",
+            "year": "2026",
+            "category": "Branding",
+            "description": "A visual identity built around a bold and flexible system.",
+            "image": "",
+            "tags": ["Art direction", "Typography"],
+            "link": "#"
+        },
+        {
+            "title": "Motion experiment",
+            "year": "2026",
+            "category": "Animation",
+            "description": "An animated study of rhythm, shapes and colour.",
+            "image": "",
+            "tags": ["Motion design", "3D"],
+            "link": "#"
+        }
+    ]
+}

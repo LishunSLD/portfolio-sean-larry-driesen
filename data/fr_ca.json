@@ -1,0 +1,34 @@
+{
+    "meta": {
+        "title": "Portfolio",
+        "language": "Français"
+    },
+    "hero": {
+        "year": "Portfolio 2026",
+        "role": "Généraliste multimédia"
+    },
+    "presentation": {
+        "description": "Je crée des expériences visuelles qui combinent le design, l'animation, la vidéo et le web."
+    },
+    "skills": {
+        "design": "Design",
+        "animation": "Animation",
+        "video": "Vidéo",
+        "web": "Web"
+    },
+    "projects": {
+        "title": "Projets",
+        "filterLabel": "Filtrer les projets",
+        "filterAll": "Tous les projets",
+        "openProject": "Voir le projet"
+    },
+    "demo": {
+        "title": "Demo reel"
+    },
+    "software": {
+        "title": "Logiciels"
+    },
+    "contact": {
+        "title": "Contact"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "categories": ["Identité", "Animation", "Vidéo", "Web"],
+    "projects": [
+        {
+            "title": "Identité visuelle",
+            "year": "2026",
+            "category": "Identité",
+            "description": "Une identité visuelle construite autour d'un système audacieux et flexible.",
+            "image": "",
+            "tags": ["Direction artistique", "Typographie"],
+            "link": "#"
+        },
+        {
+            "title": "Expérience motion",
+            "year": "2026",
+            "category": "Animation",
+            "description": "Une étude animée du rythme, des formes et de la couleur.",
+            "image": "",
+            "tags": ["Motion design", "3D"],
+            "link": "#"
+        }
+    ]
+}

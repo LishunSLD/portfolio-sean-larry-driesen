@@ -18,3 +18,8 @@
     Ma prochaine étape serait de commencer le layout du site web.
 5. Est-ce que j'ai utilisé l'IA? Si oui, pour quoi et qu'est-ce que ça m'a appris?
     Oui. Je l'ai utilisé pour servir d'inspiration pour mon concept. Cela m'a montré ce qui est générique mais également certaines options auquel je n'ai pas pensé.
+
+- **Date :** 2026-09-23
+- **Prompt :** "Implement a translation key component for text elements. English text should be found in the en_ca.json file and French text should be found in the fr_ca.json file. The language should be toggled when the lang ball is clicked, which should become red or blue depending on the language (red for English, blue for French). The projects section needs its own separate language keys in the projets_en.json and projets_fr.json files as the project cards will be dynamically created from these files. The translation key component should be created in src/js/components."
+- **Outil :** Copilot
+- **Résultat :** Contenu du commit: . Fichiers affectés: index.html, en_ca.json, fr.ca_json, projets_en.json, projets_fr.json, styles.css, script.js, translation-key.js.
