@@ -1,6 +1,13 @@
 :root {
+    --background: #000000;
     --color-language-fr: #1e5eff;
     --color-language-en: #e53935;
+    --text-light-green: #C9FFCD;
+    --text-lighter-green: #E1FFE3;
+    --text-white: #FFFFFF;
+    --box-outline-light-green: #C9FFCD;
+    --box-outline-lime: #00FF0D;
+    --glow-lime: #00FF0D;
 }
 
 * {
@@ -11,6 +18,8 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
+/* Header */
 
 .site-header {
     display: flex;
@@ -32,6 +41,8 @@ body {
     background: var(--color-language-en);
 }
 
+/* Main */
+
 main {
     width: min(70rem, 90%);
     margin: auto;
@@ -40,6 +51,16 @@ main {
 section {
     padding: 4rem 0;
 }
+
+/* Hero */
+
+.hero {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Projets */
 
 .project-category-filters,
 .project-card-tags {
@@ -85,6 +106,8 @@ section {
     padding: 0.25rem 0.5rem;
     background: #eee;
 }
+
+/* Logiciels */
 
 .software-gallery {
     display: flex;

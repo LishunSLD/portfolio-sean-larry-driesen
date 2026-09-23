@@ -1,17 +1,15 @@
 const DATA_PATH = "./data/";
 
-/**
- * Charge les textes et applique les traductions aux éléments marqués.
- */
+// Charge les textes et applique les traductions aux éléments marqués.
 export class TranslationKey {
-    constructor({ defaultLanguage = "fr", onLanguageChange } = {}) {
+    constructor({ defaultLanguage = "fr_ca", onLanguageChange } = {}) {
         this.language = defaultLanguage;
         this.onLanguageChange = onLanguageChange;
         this.translations = {};
     }
 
     async load(language) {
-        const response = await fetch(`${DATA_PATH}${language}_ca.json`);
+        const response = await fetch(`${DATA_PATH}${language}.json`);
         if (!response.ok) {
             throw new Error(`Impossible de charger les traductions ${language}.`);
         }
@@ -47,7 +45,7 @@ export class TranslationKey {
     }
 
     toggle() {
-        return this.load(this.language === "fr" ? "en" : "fr");
+        return this.load(this.language === "fr_ca" ? "en_ca" : "fr_ca");
     }
 }
 

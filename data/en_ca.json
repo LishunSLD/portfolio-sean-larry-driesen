@@ -14,7 +14,10 @@
         "design": "Design",
         "animation": "Animation",
         "video": "Video",
-        "web": "Web"
+        "web": "Web",
+        "model3d": "3D Modelling",
+        "animation3d": "3D Animation",
+        "animation2d": "2D Animation"
     },
     "projects": {
         "title": "Projects",
