@@ -8,9 +8,10 @@
         "role": "Multimedia generalist"
     },
     "presentation": {
-        "description": "I create visual experiences that combine design, animation, video and the web."
+        "description": "Lorem"
     },
     "skills": {
+        "videogame": "Video Game",
         "design": "Design",
         "animation": "Animation",
         "video": "Video",

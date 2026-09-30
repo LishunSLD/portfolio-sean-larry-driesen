@@ -8,22 +8,23 @@
         "role": "Généraliste multimédia"
     },
     "presentation": {
-        "description": "Je crée des expériences visuelles qui combinent le design, l'animation, la vidéo et le web."
+        "description": "Lorem"
     },
     "skills": {
+        "videogame": "Jeu vidéo",
         "design": "Design",
-        "animation": "Animation",
+        "animation": "Animations",
         "video": "Vidéo",
         "web": "Web",
         "model3d": "Modélisation 3D",
-        "animation3d": "Animation 3D",
-        "animation2d": "Animation 2D"
+        "animation3d": "Animation 2D",
+        "animation2d": "Animation 3D"
     },
     "projects": {
-        "title": "Projets",
+        "title": "Projects",
         "filterLabel": "Filtrer les projets",
-        "filterAll": "Tous les projets",
-        "openProject": "Voir le projet"
+        "filterAll": "Tous les projects",
+        "openProject": "Voir projet"
     },
     "demo": {
         "title": "Demo reel"
