@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Saira';
+    src: url('../../assets/font/SairaStencilOne-Regular.ttf') format(truetype);
+}
+
 :root {
     --background: #000000;
     --color-language-fr: #1e5eff;
@@ -14,9 +19,11 @@
     box-sizing: border-box;
 }
 
+/* Body */
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    background-color: var(--background);
 }
 
 /* Header */
@@ -39,6 +46,23 @@ body {
 
 .lang-ball--english {
     background: var(--color-language-en);
+}
+
+/* Texte */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira', 'Verdana';
+    color: var(--text-light-green);
+}
+
+p {
+    font-family: 'Verdana';
+    color: var(--text-white);
+}
+
+a, button {
+    font-family: 'Verdana';
+    color: var(--text-white);
 }
 
 /* Main */
@@ -74,7 +98,6 @@ section {
     padding: 0.6rem 1rem;
     border: 1px solid currentColor;
     background: transparent;
-    color: inherit;
     text-decoration: none;
     cursor: pointer;
 }
