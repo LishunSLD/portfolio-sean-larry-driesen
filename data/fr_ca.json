@@ -8,7 +8,7 @@
         "role": "Généraliste multimédia"
     },
     "presentation": {
-        "description": "Lorem"
+        "description": "I am Sean Larry Driesen, third year multimedia student."
     },
     "skills": {
         "videogame": "Jeu vidéo",
@@ -21,7 +21,7 @@
         "animation2d": "Animation 3D"
     },
     "projects": {
-        "title": "Projects",
+        "title": "Projets",
         "filterLabel": "Filtrer les projets",
         "filterAll": "Tous les projects",
         "openProject": "Voir projet"
