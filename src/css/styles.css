@@ -230,6 +230,7 @@ main {
 
     animation: fading linear both;
     animation-timeline: view();
+    cursor: pointer;
 }
 
 .project-card-image {
@@ -284,6 +285,94 @@ main {
     padding: 0.25rem 0.5rem;
     color: var(--text-light-green);
     text-shadow: 0 -2px 16.1px var(--glow-lime);
+}
+
+/* Popup de projet */
+
+.project-popup {
+    width: min(70rem, 90%);
+    max-height: 90vh;
+    padding: 0;
+    border: 2px solid var(--box-outline-lime);
+    background: var(--background);
+    box-shadow: 0 0 2rem var(--glow-lime);
+}
+
+.project-popup::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.project-popup-content {
+    position: relative;
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+.project-popup-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: 0;
+    background: transparent;
+    color: var(--text-light-green);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.project-popup-main {
+    display: grid;
+    gap: 1rem;
+}
+
+.project-popup-image {
+    width: 100%;
+    max-height: 24rem;
+    object-fit: cover;
+}
+
+.project-popup-details {
+    font-weight: bold;
+}
+
+.project-popup-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.project-popup-link {
+    width: fit-content;
+    padding: 0.6rem 1rem;
+    border: 1.5px solid var(--box-outline-light-green);
+    box-shadow: 0 -2px 3px 3px var(--glow-lime);
+}
+
+.project-popup-process {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--box-outline-light-green);
+}
+
+.project-popup-process-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.project-popup-process-images {
+    display: grid;
+    gap: 1rem;
+}
+
+.project-popup-process-images img {
+    width: 100%;
+}
+
+@media (max-width: 45rem) {
+    .project-popup-process-layout {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* Demo */

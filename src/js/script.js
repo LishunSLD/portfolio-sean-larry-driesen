@@ -3,6 +3,10 @@ import { TranslationKey } from "./components/translation-key.js";
 const langBall = document.querySelector(".lang-ball");
 const categoryFilters = document.querySelector(".project-category-filters");
 const projectGallery = document.querySelector(".project-gallery");
+const projectPopup = document.querySelector(".project-popup");
+const projectPopupMain = document.querySelector(".project-popup-main");
+const projectPopupProcess = document.querySelector(".project-popup-process");
+const projectPopupClose = document.querySelector(".project-popup-close");
 const translation = new TranslationKey({
     defaultLanguage: "fr_ca",
     onLanguageChange: renderProjects
@@ -43,6 +47,9 @@ async function renderProjects(language) {
         const card = document.createElement("article");
         card.className = "project-card";
         card.dataset.category = project.category;
+        card.tabIndex = 0;
+        card.setAttribute("role", "button");
+        card.setAttribute("aria-label", `${translation.translate("projects.openProject")}: ${project.title}`);
         card.innerHTML = `
             <img src="${project.image}" alt="" class="project-card-image">
             <div class="project-card-content">
@@ -58,9 +65,99 @@ async function renderProjects(language) {
                 </div>
             </div>
         `;
+        card.addEventListener("click", () => openProjectPopup(project));
+        card.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                openProjectPopup(project);
+            }
+        });
+        card.querySelector(".project-card-button").addEventListener("click", (event) => {
+            event.preventDefault();
+        });
         projectGallery.append(card);
     });
 }
+
+// Remplit et ouvre la popup du projet sélectionné.
+function openProjectPopup(project) {
+    projectPopupMain.replaceChildren();
+    projectPopupProcess.replaceChildren();
+
+    const title = document.createElement("h2");
+    title.id = "project-popup-title";
+    title.textContent = project.title;
+
+    const image = document.createElement("img");
+    image.className = "project-popup-image";
+    image.src = project.image;
+    image.alt = project.title;
+
+    const description = document.createElement("p");
+    description.textContent = project.description;
+
+    const details = document.createElement("p");
+    details.className = "project-popup-details";
+    details.textContent = `${project.category} · ${project.year}`;
+
+    const tags = document.createElement("div");
+    tags.className = "project-popup-tags";
+    project.tags.forEach((tag) => {
+        const tagElement = document.createElement("span");
+        tagElement.className = "project-card-tag";
+        tagElement.textContent = tag;
+        tags.append(tagElement);
+    });
+
+    projectPopupMain.append(title, image, details, description, tags);
+
+    if (project.link) {
+        const link = document.createElement("a");
+        link.className = "project-popup-link";
+        link.href = project.link;
+        link.target = "_blank";
+        link.rel = "noreferrer";
+        link.textContent = translation.translate("projects.visitProject");
+        projectPopupMain.append(link);
+    }
+
+    const process = project.creationProcess;
+    if (process && (process.description || process.images?.length)) {
+        const processTitle = document.createElement("h3");
+        processTitle.textContent = translation.translate("projects.creationProcess");
+        projectPopupProcess.append(processTitle);
+
+        const processLayout = document.createElement("div");
+        processLayout.className = "project-popup-process-layout";
+
+        if (process.description) {
+            const processDescription = document.createElement("p");
+            processDescription.textContent = process.description;
+            processLayout.append(processDescription);
+        }
+
+        if (process.images?.length) {
+            const processImages = document.createElement("div");
+            processImages.className = "project-popup-process-images";
+            process.images.forEach((imagePath) => {
+                const processImage = document.createElement("img");
+                processImage.src = imagePath;
+                processImage.alt = `${project.title} — ${translation.translate("projects.creationProcess")}`;
+                processImages.append(processImage);
+            });
+            processLayout.append(processImages);
+        }
+
+        projectPopupProcess.append(processLayout);
+    }
+
+    projectPopup.showModal();
+}
+
+projectPopupClose.addEventListener("click", () => projectPopup.close());
+projectPopup.addEventListener("click", (event) => {
+    if (event.target === projectPopup) projectPopup.close();
+});
 
 // Filtres
 categoryFilters.addEventListener("click", (event) => {

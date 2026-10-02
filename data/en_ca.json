@@ -24,7 +24,10 @@
         "title": "Projects",
         "filterLabel": "Filter projects",
         "filterAll": "All projects",
-        "openProject": "View project"
+        "openProject": "View project",
+        "closeProject": "Close project",
+        "visitProject": "Visit project",
+        "creationProcess": "Creation process"
     },
     "demo": {
         "title": "Demo reel"

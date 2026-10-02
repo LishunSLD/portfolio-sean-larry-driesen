@@ -8,7 +8,11 @@
             "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
             "image": "../../assets/img/projects/projectsoucou.png",
             "tags": ["Solo", "Académique"],
-            "link": "#"
+            "link": "#",
+            "creationProcess": {
+                "description": "J’ai d’abord conçu la boucle de jeu, puis créé un prototype et peaufiné la direction visuelle à travers plusieurs itérations.",
+                "images": ["../../assets/img/projects/projectsoucou.png"]
+            }
         },
         {
             "title": "AdvanceTD",
@@ -17,7 +21,8 @@
             "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
             "image": "../../assets/img/projects/projectadvancetd.png",
             "tags": ["Team", "Académique"],
-            "link": "#"
+            "link": "#",
+            "creationProcess": {}
         },
         {
             "title": "Infiltration",
@@ -26,7 +31,8 @@
             "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
             "image": "../../assets/img/projects/projectinfiltration.png",
             "tags": ["Team", "Académique"],
-            "link": "#"
+            "link": "#",
+            "creationProcess": {}
         },
         {
             "title": "S.0.S.",
@@ -35,7 +41,8 @@
             "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
             "image": "../../assets/img/projects/projectsos.png",
             "tags": ["Solo", "Académique"],
-            "link": "#"
+            "link": "#",
+            "creationProcess": {}
         },
                 {
             "title": "Space Station",
@@ -44,7 +51,8 @@
             "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
             "image": "../../assets/img/projects/projectgasstation.png",
             "tags": ["Team", "Academic"],
-            "link": "#"
+            "link": "#",
+            "creationProcess": {}
         }
     ]
 }
