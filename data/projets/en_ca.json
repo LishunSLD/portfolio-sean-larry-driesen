@@ -6,12 +6,12 @@
             "year": "2025",
             "category": "Video Game",
             "description": "A video game where the progression involves searching for keys in a basement, leading to a final battle that requires dodging and deflecting projectiles.",
-            "image": "../../assets/img/projects/projectsoucou.png",
+            "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsoucou.png",
             "tags": ["Solo", "Academic"],
             "link": "#",
             "creationProcess": {
                 "description": "I first designed the gameplay loop, then built a prototype and refined the visual direction through several iterations.",
-                "images": ["../../assets/img/projects/projectsoucou.png"]
+                "images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsoucou.png"]
             }
         },
         {
@@ -19,7 +19,7 @@
             "year": "2025",
             "category": "Video Game",
             "description": "A game where you have to buy towers to defend various paths against robotic enemies in an Arctic landscape.",
-            "image": "../../assets/img/projects/projectadvancetd.png",
+            "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectadvancetd.png",
             "tags": ["Team", "Academic"],
             "link": "#",
             "creationProcess": {}
@@ -29,7 +29,7 @@
             "year": "2025",
             "category": "Video",
             "description": "A short film about infiltrating a border post in a supposedly authoritarian country during the Cold War.",
-            "image": "../../assets/img/projects/projectinfiltration.png",
+            "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectinfiltration.png",
             "tags": ["Team", "Academic"],
             "link": "#",
             "creationProcess": {}
@@ -39,7 +39,7 @@
             "year": "2026",
             "category": ["3D Animation", "Audiovisual treatment", "Audio"],
             "description": "A performance in which a walkie-talkie falls from a tower in the forest; the visual component explores the atmosphere of the forest and radio interference, while the work as a whole is a physical performance involving various controls.",
-            "image": "../../assets/img/projects/projectsos.png",
+            "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsos.png",
             "tags": ["Solo", "Academic"],
             "link": "#",
             "creationProcess": {}

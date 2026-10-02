@@ -6,7 +6,7 @@
             "year": "2025",
             "category": "Jeu vidéo",
             "description": "Un jeu vidéo avec le but de chercher des clés dans un sous-sol comme progression qui mène à un combat final où il faut esquiver et renvoyer des projectiles.",
-            "image": "../assets/img/projects/projectsoucou.png",
+            "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsoucou.png",
             "tags": ["Solo", "Académique"],
             "link": "#",
             "creationProcess": {}
@@ -16,12 +16,12 @@
             "year": "2025",
             "category": "Jeu vidéo",
             "description": "Un jeu où l’on doit acheter des tours pour défendre différents chemin contre des ennemis robotiques dans un paysage arctique.",
-            "image": "../../assets/img/projects/projectadvancetd.png",
+            "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectadvancetd.png",
             "tags": ["Team", "Académique"],
             "link": "#",
             "creationProcess": {
                 "description": "Conception : Le jeu a été conçu en définissant les composantes nécessaires, dont différents niveaux, un magasin, des tours, des ennemis, un chemin, plusieurs menus. Plusieurs tours et ennemis différents ont été conçus pour créer une progression linéaire.",
-                "images": ["../../assets/img/concept1.png"]
+                "images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/concept1.png"]
             }
         },
         {
@@ -29,7 +29,7 @@
             "year": "2025",
             "category": "Vidéo",
             "description": "Un court métrage sur le thème d'une infiltration à un poste frontalier dans un pays supposément autoritaire durant la Guerre froide.",
-            "image": "../../assets/img/projects/projectinfiltration.png",
+            "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectinfiltration.png",
             "tags": ["Team", "Académique"],
             "link": "#",
             "creationProcess": {}
@@ -39,7 +39,7 @@
             "year": "2026",
             "category": ["Animation 3D", " Traitement audiovisuel", " Audio"],
             "description": "Une performance où dans la partie visuelle, un walkie-talkie tombe d’une tour en forêt, la partie visuelle explore l’ambiance de forêt et d’interférence radio et le tout étant une performance physique avec divers contrôles.",
-            "image": "../../assets/img/projects/projectsos.png",
+            "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsos.png",
             "tags": ["Solo", "Académique"],
             "link": "#",
             "creationProcess": {}
