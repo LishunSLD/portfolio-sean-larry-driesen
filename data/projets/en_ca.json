@@ -5,8 +5,8 @@
             "title": "Soucou 3.5",
             "year": "2025",
             "category": "Video Game",
-            "description": "",
-            "image": "",
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectsoucou.png",
             "tags": ["Solo", "Academic"],
             "link": "#"
         },
@@ -14,8 +14,8 @@
             "title": "AdvanceTD",
             "year": "2025",
             "category": "Video Game",
-            "description": "",
-            "image": "",
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectadvancetd.png",
             "tags": ["Team", "Academic"],
             "link": "#"
         },
@@ -23,8 +23,8 @@
             "title": "Infiltration",
             "year": "2025",
             "category": "Video",
-            "description": "",
-            "image": "",
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectinfiltration.png",
             "tags": ["Team", "Academic"],
             "link": "#"
         },
@@ -32,9 +32,18 @@
             "title": "S.0.S.",
             "year": "2026",
             "category": ["3D Animation", "Audiovisual treatment", "Audio"],
-            "description": "",
-            "image": "",
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectsos.png",
             "tags": ["Solo", "Academic"],
+            "link": "#"
+        },
+                {
+            "title": "Space Station",
+            "year": "2025",
+            "category": "3D Modelling",
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectgasstation.png",
+            "tags": ["Team", "Academic"],
             "link": "#"
         }
     ]

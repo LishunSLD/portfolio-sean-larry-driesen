@@ -5,8 +5,8 @@
             "title": "Soucou 3.5",
             "year": "2025",
             "category": "Jeu vidéo",
-            "description": "",
-            "image": "",
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectsoucou.png",
             "tags": ["Solo", "Académique"],
             "link": "#"
         },
@@ -14,8 +14,8 @@
             "title": "AdvanceTD",
             "year": "2025",
             "category": "Jeu vidéo",
-            "description": "",
-            "image": "",
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectadvancetd.png",
             "tags": ["Team", "Académique"],
             "link": "#"
         },
@@ -23,18 +23,27 @@
             "title": "Infiltration",
             "year": "2025",
             "category": "Vidéo",
-            "description": "",
-            "image": "",
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectinfiltration.png",
             "tags": ["Team", "Académique"],
             "link": "#"
         },
         {
             "title": "S.0.S.",
             "year": "2026",
-            "category": ["Animation 3D", "Traitement audiovisuel", "Audio"],
-            "description": "",
-            "image": "",
+            "category": ["Animation 3D", " Traitement audiovisuel", " Audio"],
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectsos.png",
             "tags": ["Solo", "Académique"],
+            "link": "#"
+        },
+                {
+            "title": "Space Station",
+            "year": "2025",
+            "category": "3D Modelling",
+            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "image": "../../assets/img/projects/projectgasstation.png",
+            "tags": ["Team", "Academic"],
             "link": "#"
         }
     ]
