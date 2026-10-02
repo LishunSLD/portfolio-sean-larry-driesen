@@ -1,5 +1,5 @@
 {
-    "categories": ["Jeu vidéo", "Design", "Animation", "Vidéo", "Web", "Modélisation 3D", "Animation 3D", "Animation 2D"],
+    "categories": ["Jeu vidéo", "Animation", "Vidéo", "Web", "Modélisation 3D", "Animation 3D", "Animation 2D"],
     "projects": [
         {
             "title": "Soucou 3.5",
@@ -29,90 +29,9 @@
             "link": "#"
         },
         {
-            "title": "Décagone",
-            "year": "2025",
-            "category": "Vidéo",
-            "description": "",
-            "image": "",
-            "tags": ["Team", "Académique"],
-            "link": "#"
-        },
-        {
             "title": "S.0.S.",
             "year": "2026",
             "category": ["Animation 3D", "Traitement audiovisuel", "Audio"],
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Académique"],
-            "link": "#"
-        },
-        {
-            "title": "Beurre sans frontières",
-            "year": "2026",
-            "category": "Animation 3D",
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Académique"],
-            "link": "#"
-        },
-        {
-            "title": "Minou",
-            "year": "2025",
-            "category": "Modélisation 3D",
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Académique"],
-            "link": "#"
-        },
-        {
-            "title": "Station spatiale",
-            "year": "2025",
-            "category": "Modélisation 3D",
-            "description": "",
-            "image": "",
-            "tags": ["Team", "Académique"],
-            "link": "#"
-        },
-        {
-            "title": "Travesti",
-            "year": "2025",
-            "category": "Vidéo",
-            "description": "",
-            "image": "",
-            "tags": ["Team", "Académique"],
-            "link": "#"
-        },
-        {
-            "title": "Soucou",
-            "year": "2024",
-            "category": "Jeu vidéo",
-            "description": "",
-            "image": "",
-            "tags": ["Team", "Personal"],
-            "link": "#"
-        },
-        {
-            "title": "Soucou 3",
-            "year": "2024",
-            "category": "Jeu vidéo",
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Académique"],
-            "link": "#"
-        },
-        {
-            "title": "Simulation rouge",
-            "year": "2025",
-            "category": "Jeu vidéo",
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Académique"],
-            "link": "#"
-        },
-        {
-            "title": "Panneau de contrôle Github",
-            "year": "2025",
-            "category": "Web",
             "description": "",
             "image": "",
             "tags": ["Solo", "Académique"],

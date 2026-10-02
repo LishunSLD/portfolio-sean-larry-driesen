@@ -29,90 +29,9 @@
             "link": "#"
         },
         {
-            "title": "Decagon",
-            "year": "2025",
-            "category": "Video",
-            "description": "",
-            "image": "",
-            "tags": ["Team", "Academic"],
-            "link": "#"
-        },
-        {
             "title": "S.0.S.",
             "year": "2026",
             "category": ["3D Animation", "Audiovisual treatment", "Audio"],
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Academic"],
-            "link": "#"
-        },
-        {
-            "title": "Butter Without Borders",
-            "year": "2026",
-            "category": "3D Animation",
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Academic"],
-            "link": "#"
-        },
-        {
-            "title": "Minou",
-            "year": "2025",
-            "category": "3D Modelling",
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Academic"],
-            "link": "#"
-        },
-        {
-            "title": "Space Station",
-            "year": "2025",
-            "category": "3D Modelling",
-            "description": "",
-            "image": "",
-            "tags": ["Team", "Academic"],
-            "link": "#"
-        },
-        {
-            "title": "Travesti",
-            "year": "2025",
-            "category": "Video",
-            "description": "",
-            "image": "",
-            "tags": ["Team", "Academic"],
-            "link": "#"
-        },
-        {
-            "title": "Soucou",
-            "year": "2024",
-            "category": "Video Game",
-            "description": "",
-            "image": "",
-            "tags": ["Team", "Personal"],
-            "link": "#"
-        },
-        {
-            "title": "Soucou 3",
-            "year": "2024",
-            "category": "Video Game",
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Academic"],
-            "link": "#"
-        },
-        {
-            "title": "Red Simulation",
-            "year": "2025",
-            "category": "Video Game",
-            "description": "",
-            "image": "",
-            "tags": ["Solo", "Academic"],
-            "link": "#"
-        },
-        {
-            "title": "Github Control Panel",
-            "year": "2025",
-            "category": "Web",
             "description": "",
             "image": "",
             "tags": ["Solo", "Academic"],
