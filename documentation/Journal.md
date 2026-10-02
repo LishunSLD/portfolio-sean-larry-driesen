@@ -28,3 +28,8 @@
 - **Prompt :** "Implement a popup appearing when a project's "view project" button is clicked. The popup should also appear when any part of the project card is clicked. The popup should include the project's data such as title, description, year, tags, image and tags but also include a creation process explanation section, consisting of a section split between a text section and a images section. This creation process section is optional and should not render if the data is not filled. The popup should also include a link to project and should not render if the data is not filled. The creation process description and images and popup link should be defined in data/projets/en_ca and fr_ca. The creation process section should be at the bottom of the popup."
 - **Outil :** Copilot
 - **Résultat :** Contenu du commit: [d9fb381ae1ad4a08f61fe685b77e56259c259de7](https://github.com/LishunSLD/portfolio-sean-larry-driesen/commit/d9fb381ae1ad4a08f61fe685b77e56259c259de7) (commit hash). Fichiers affectés: index.html, en_ca.json, fr.ca_json, projets/en_ca.json, projets/en_ca.json, styles.css, script.js, translation-key.js.
+
+- **Date :** 2026-10-01
+- **Prompt :** "Improve the accessibility on other devices for a mobile version of the site, making sure elements are not stretched, deformed, misaligned, popping out of its containers, etc. The category cards gallery and project gallery should follow a different vertical display on mobile."
+- **Outil :** Copilot
+- **Résultat :** Contenu du commit: [deb28460a69032313e574dc0d221c773e88dfcfd](https://github.com/LishunSLD/portfolio-sean-larry-driesen/commit/deb28460a69032313e574dc0d221c773e88dfcfd) (commit hash). Fichiers affectés: styles.css.
