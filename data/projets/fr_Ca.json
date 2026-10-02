@@ -5,30 +5,30 @@
             "title": "Soucou 3.5",
             "year": "2025",
             "category": "Jeu vidéo",
-            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
-            "image": "../../assets/img/projects/projectsoucou.png",
+            "description": "Un jeu vidéo avec le but de chercher des clés dans un sous-sol comme progression qui mène à un combat final où il faut esquiver et renvoyer des projectiles.",
+            "image": "../assets/img/projects/projectsoucou.png",
             "tags": ["Solo", "Académique"],
             "link": "#",
-            "creationProcess": {
-                "description": "J’ai d’abord conçu la boucle de jeu, puis créé un prototype et peaufiné la direction visuelle à travers plusieurs itérations.",
-                "images": ["../../assets/img/projects/projectsoucou.png"]
-            }
+            "creationProcess": {}
         },
         {
             "title": "AdvanceTD",
             "year": "2025",
             "category": "Jeu vidéo",
-            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "description": "Un jeu où l’on doit acheter des tours pour défendre différents chemin contre des ennemis robotiques dans un paysage arctique.",
             "image": "../../assets/img/projects/projectadvancetd.png",
             "tags": ["Team", "Académique"],
             "link": "#",
-            "creationProcess": {}
+            "creationProcess": {
+                "description": "Conception : Le jeu a été conçu en définissant les composantes nécessaires, dont différents niveaux, un magasin, des tours, des ennemis, un chemin, plusieurs menus. Plusieurs tours et ennemis différents ont été conçus pour créer une progression linéaire.",
+                "images": ["../../assets/img/concept1.png"]
+            }
         },
         {
             "title": "Infiltration",
             "year": "2025",
             "category": "Vidéo",
-            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "description": "Un court métrage sur le thème d'une infiltration à un poste frontalier dans un pays supposément autoritaire durant la Guerre froide.",
             "image": "../../assets/img/projects/projectinfiltration.png",
             "tags": ["Team", "Académique"],
             "link": "#",
@@ -38,19 +38,9 @@
             "title": "S.0.S.",
             "year": "2026",
             "category": ["Animation 3D", " Traitement audiovisuel", " Audio"],
-            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
+            "description": "Une performance où dans la partie visuelle, un walkie-talkie tombe d’une tour en forêt, la partie visuelle explore l’ambiance de forêt et d’interférence radio et le tout étant une performance physique avec divers contrôles.",
             "image": "../../assets/img/projects/projectsos.png",
             "tags": ["Solo", "Académique"],
-            "link": "#",
-            "creationProcess": {}
-        },
-                {
-            "title": "Space Station",
-            "year": "2025",
-            "category": "3D Modelling",
-            "description": "Lorem Lorem Lorem Lorem Lorem Lorem",
-            "image": "../../assets/img/projects/projectgasstation.png",
-            "tags": ["Team", "Academic"],
             "link": "#",
             "creationProcess": {}
         }
