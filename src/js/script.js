@@ -51,7 +51,7 @@ async function renderProjects(language) {
         card.setAttribute("role", "button");
         card.setAttribute("aria-label", `${translation.translate("projects.openProject")}: ${project.title}`);
         card.innerHTML = `
-            <img src="${project.image}" alt="" class="project-card-image">
+            <img src="${project.image}" alt="${project.alt}" class="project-card-image">
             <div class="project-card-content">
                 <div class="project-card-title-category"> 
                     <i><h3 class="project-card-title">${project.title}</h3></i>

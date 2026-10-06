@@ -7,8 +7,9 @@
             "category": "Video Game",
             "description": "A video game where the progression involves searching for keys in a basement, leading to a final battle that requires dodging and deflecting projectiles.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsoucou.png",
+            "alt": "Soucou Image",
             "tags": ["Solo", "Academic"],
-            "link": "#",
+            "link": "https://lishunsld.github.io/interactivite-ludique-tp3/",
             "creationProcess": {
                 "description": "I first designed the gameplay loop, then built a prototype and refined the visual direction through several iterations.",
                 "images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsoucou.png"]
@@ -20,8 +21,9 @@
             "category": "Video Game",
             "description": "A game where you have to buy towers to defend various paths against robotic enemies in an Arctic landscape.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectadvancetd.png",
+            "alt": "AdvanceTD Image",
             "tags": ["Team", "Academic"],
-            "link": "#",
+            "link": "https://quaduction.github.io/advancetd/",
             "creationProcess": {}
         },
         {
@@ -30,6 +32,7 @@
             "category": "Video",
             "description": "A short film about infiltrating a border post in a supposedly authoritarian country during the Cold War.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectinfiltration.png",
+            "alt": "Infiltration Image",
             "tags": ["Team", "Academic"],
             "link": "#",
             "creationProcess": {}
@@ -40,6 +43,7 @@
             "category": ["3D Animation", "Audiovisual treatment", "Audio"],
             "description": "A performance in which a walkie-talkie falls from a tower in the forest; the visual component explores the atmosphere of the forest and radio interference, while the work as a whole is a physical performance involving various controls.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsos.png",
+            "alt": "S.O.S. Image",
             "tags": ["Solo", "Academic"],
             "link": "#",
             "creationProcess": {}

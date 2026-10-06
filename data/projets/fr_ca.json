@@ -7,8 +7,9 @@
             "category": "Jeu vidéo",
             "description": "Un jeu vidéo avec le but de chercher des clés dans un sous-sol comme progression qui mène à un combat final où il faut esquiver et renvoyer des projectiles.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsoucou.png",
+            "alt": "Image de Soucou",
             "tags": ["Solo", "Académique"],
-            "link": "#",
+            "link": "https://lishunsld.github.io/interactivite-ludique-tp3/",
             "creationProcess": {}
         },
         {
@@ -17,8 +18,9 @@
             "category": "Jeu vidéo",
             "description": "Un jeu où l’on doit acheter des tours pour défendre différents chemin contre des ennemis robotiques dans un paysage arctique.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectadvancetd.png",
+            "alt": "Image de AdvanceTD",
             "tags": ["Team", "Académique"],
-            "link": "#",
+            "link": "https://quaduction.github.io/advancetd/",
             "creationProcess": {
                 "description": "Conception : Le jeu a été conçu en définissant les composantes nécessaires, dont différents niveaux, un magasin, des tours, des ennemis, un chemin, plusieurs menus. Plusieurs tours et ennemis différents ont été conçus pour créer une progression linéaire.",
                 "images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/concept1.png"]
@@ -30,6 +32,7 @@
             "category": "Vidéo",
             "description": "Un court métrage sur le thème d'une infiltration à un poste frontalier dans un pays supposément autoritaire durant la Guerre froide.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectinfiltration.png",
+            "alt": "Image de Infiltration",
             "tags": ["Team", "Académique"],
             "link": "#",
             "creationProcess": {}
@@ -40,6 +43,7 @@
             "category": ["Animation 3D", " Traitement audiovisuel", " Audio"],
             "description": "Une performance où dans la partie visuelle, un walkie-talkie tombe d’une tour en forêt, la partie visuelle explore l’ambiance de forêt et d’interférence radio et le tout étant une performance physique avec divers contrôles.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsos.png",
+            "alt": "Image de S.O.S.",
             "tags": ["Solo", "Académique"],
             "link": "#",
             "creationProcess": {}
