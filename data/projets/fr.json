@@ -4,7 +4,7 @@
         {
             "title": "Soucou 3.5",
             "year": "2025",
-            "category": "Jeu vidéo",
+            "category": ["Jeu vidéo"],
             "description": "Un jeu vidéo avec le but de chercher des clés dans un sous-sol comme progression qui mène à un combat final où il faut esquiver et renvoyer des projectiles.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsoucou.png",
             "alt": "Image de Soucou",
@@ -15,37 +15,53 @@
         {
             "title": "AdvanceTD",
             "year": "2025",
-            "category": "Jeu vidéo",
+            "category": ["Jeu vidéo"],
             "description": "Un jeu où l’on doit acheter des tours pour défendre différents chemin contre des ennemis robotiques dans un paysage arctique.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectadvancetd.png",
             "alt": "Image de AdvanceTD",
             "tags": ["Team", "Académique"],
             "link": "https://quaduction.github.io/advancetd/",
             "creationProcess": {
-                "description": "Conception : Le jeu a été conçu en définissant les composantes nécessaires, dont différents niveaux, un magasin, des tours, des ennemis, un chemin, plusieurs menus. Plusieurs tours et ennemis différents ont été conçus pour créer une progression linéaire. Création du moteur de jeu / libraire de défense de tour : Godot a été choisi comme logiciel pour créer le moteur de jeu de défense de tour. Le système est créé de façon qu’il est configurable et facile de créer de nouvelles tours, niveaux et ennemis et assigner les éléments graphiques comme les textures. Création des éléments graphiques : Les éléments graphiques comme des textures du jeu pour les tours, les ennemis et les menus ont été créé dans Pixelorama. Le décor consiste de textures réutilisé de l’un de nos projets personnels, étant une modification pour le jeu Mindustry. Les éléments graphiques de menus ont été créé dans Figma et exporté. Assemblage des éléments : Les éléments graphiques et le concept ont été assemblé dans le moteur de jeu pour réaliser le jeu, appliquant les textures, noms et données correctes pour les tours, cartes et ennemis. Balancement et testage : Nous avons ensuite tester le jeu pour s’assurer qu’il est possible de progresser correctement. Un ajustement des données de l’argent que le joueur reçoit, le coût des tours, les points de vie des ennemis ont dû être effectué pour une meilleure qualité de jeu. Publication : Le jeu est ensuite publié sur un site web, dans notre cas hébergé sur Github Pages.",
-                "images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept1.png", "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept2.png", "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept3.png", "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept4.png", "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept5.png", "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept6.png"]
+                "p1_title": "Conception",
+                "p1": "Le jeu a été conçu en définissant les composantes nécessaires, dont différents niveaux, un magasin, des tours, des ennemis, un chemin, plusieurs menus. Plusieurs tours et ennemis différents ont été conçus pour créer une progression linéaire.",
+                "p2_title": "Création du moteur de jeu / libraire de défense de tour",
+                "p2": "Godot a été choisi comme logiciel pour créer le moteur de jeu de défense de tour. Le système est créé de façon qu’il est configurable et facile de créer de nouvelles tours, niveaux et ennemis et assigner les éléments graphiques comme les textures.",
+                "p3_title": "Création des éléments graphiques",
+                "p3": "Les éléments graphiques comme des textures du jeu pour les tours, les ennemis et les menus ont été créé dans Pixelorama. Le décor consiste de textures réutilisé de l’un de nos projets personnels, étant une modification pour le jeu Mindustry. Les éléments graphiques de menus ont été créé dans Figma et exporté. ",
+                "p4_title": "Assemblage des éléments",
+                "p4": "Les éléments graphiques et le concept ont été assemblé dans le moteur de jeu pour réaliser le jeu, appliquant les textures, noms et données correctes pour les tours, cartes et ennemis. ",
+                "p5_title": "Balancement et testage",
+                "p5": "Nous avons ensuite tester le jeu pour s’assurer qu’il est possible de progresser correctement. Un ajustement des données de l’argent que le joueur reçoit, le coût des tours, les points de vie des ennemis ont dû être effectué pour une meilleure qualité de jeu.",
+                "p6_title": "Publication",
+                "p6": "Le jeu est ensuite publié sur un site web, dans notre cas hébergé sur Github Pages.",
+                "p1_images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept1.png"],
+                "p2_images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept2.png"],
+                "p3_images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept3.png"],
+                "p4_images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept4.png"],
+                "p5_images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept5.png"],
+                "p6_images": ["https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/processus/concept6.png"]
             }
         },
         {
             "title": "Infiltration",
             "year": "2025",
-            "category": "Vidéo",
+            "category": ["Vidéo"],
             "description": "Un court métrage sur le thème d'une infiltration à un poste frontalier dans un pays supposément autoritaire durant la Guerre froide.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectinfiltration.png",
             "alt": "Image de Infiltration",
             "tags": ["Team", "Académique"],
-            "link": "#",
+            "link": "https://youtu.be/YMOVN4iExQQ",
             "creationProcess": {}
         },
         {
             "title": "S.0.S.",
             "year": "2026",
-            "category": ["Animation 3D", "Traitement audiovisuel", "Audio", "Modélisation 3D"],
+            "category": ["Animation 3D, Modélisation 3D, Traitement audiovisuel, Audio", "Animation 3D", "Traitement audiovisuel", "Audio", "Modélisation 3D"],
             "description": "Une performance où dans la partie visuelle, un walkie-talkie tombe d’une tour en forêt, la partie visuelle explore l’ambiance de forêt et d’interférence radio et le tout étant une performance physique avec divers contrôles.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsos.png",
             "alt": "Image de S.O.S.",
             "tags": ["Solo", "Académique"],
-            "link": "#",
+            "link": "https://youtu.be/T8eTvGL_onw",
             "creationProcess": {}
         }
     ]

@@ -55,7 +55,7 @@ async function renderProjects(language) {
             <div class="project-card-content">
                 <div class="project-card-title-category"> 
                     <i><h3 class="project-card-title">${project.title}</h3></i>
-                    <p class="project-card-category">${project.category}</p>
+                    <p class="project-card-category">${project.category[0]}</p>
                 </div>
                 <h4 class="project-card-year">${project.year}</h4>
                 <p class="project-card-text">${project.description}</p>
@@ -122,7 +122,7 @@ function openProjectPopup(project) {
     }
 
     const process = project.creationProcess;
-    if (process && (process.description || process.images?.length)) {
+    if (process && (process.p1)) {
         const processTitle = document.createElement("h3");
         processTitle.textContent = translation.translate("projects.creationProcess");
         projectPopupProcess.append(processTitle);
@@ -130,22 +130,53 @@ function openProjectPopup(project) {
         const processLayout = document.createElement("div");
         processLayout.className = "project-popup-process-layout";
 
-        if (process.description) {
-            const processDescription = document.createElement("p");
-            processDescription.textContent = process.description;
+        if (process.p1) {
+            const processDescription = document.createElement("div");
+            processDescription.className = "project-card-process-description";
+            processDescription.innerHTML = 
+            `<section>
+                <div class="project-card-process-description-pr-container">
+                <h3>${process.p1_title}</h3>
+                <p>${process.p1}</p>
+                </div>
+                <img src="${process.p1_images}" alt="Support Image" loading="lazy">
+            </section>
+            <section>
+                <div class="project-card-process-description-pr-container">
+                <h3>${process.p2_title}</h3>
+                <p>${process.p2}</p>
+                </div>
+                <img src="${process.p2_images}" alt="Support Image" loading="lazy">
+            </section>
+            <section>
+                <div class="project-card-process-description-pr-container">
+                <h3>${process.p3_title}</h3>
+                <p>${process.p3}</p>
+                </div>
+                <img src="${process.p3_images}" alt="Support Image" loading="lazy">
+            </section>
+            <section>
+                <div class="project-card-process-description-pr-container">
+                <h3>${process.p4_title}</h3>
+                <p>${process.p4}</p>
+                </div>
+                <img src="${process.p4_images}" alt="Support Image" loading="lazy">
+            </section>
+            <section>
+                <div class="project-card-process-description-pr-container">
+                <h3>${process.p5_title}</h3>
+                <p>${process.p5}</p>
+                </div>
+                <img src="${process.p5_images}" alt="Support Image" loading="lazy">
+            </section>
+            <section>
+                <div class="project-card-process-description-pr-container">
+                <h3>${process.p6_title}</h3>
+                <p>${process.p6}</p>
+                </div>
+                <img src="${process.p6_images}" alt="Support Image" loading="lazy">
+            </section>`;
             processLayout.append(processDescription);
-        }
-
-        if (process.images?.length) {
-            const processImages = document.createElement("div");
-            processImages.className = "project-popup-process-images";
-            process.images.forEach((imagePath) => {
-                const processImage = document.createElement("img");
-                processImage.src = imagePath;
-                processImage.alt = `${project.title} — ${translation.translate("projects.creationProcess")}`;
-                processImages.append(processImage);
-            });
-            processLayout.append(processImages);
         }
 
         projectPopupProcess.append(processLayout);
