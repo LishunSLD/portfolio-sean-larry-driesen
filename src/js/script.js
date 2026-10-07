@@ -8,7 +8,7 @@ const projectPopupMain = document.querySelector(".project-popup-main");
 const projectPopupProcess = document.querySelector(".project-popup-process");
 const projectPopupClose = document.querySelector(".project-popup-close");
 const translation = new TranslationKey({
-    defaultLanguage: "fr_ca",
+    defaultLanguage: "fr",
     onLanguageChange: renderProjects
 });
 
@@ -51,7 +51,7 @@ async function renderProjects(language) {
         card.setAttribute("role", "button");
         card.setAttribute("aria-label", `${translation.translate("projects.openProject")}: ${project.title}`);
         card.innerHTML = `
-            <img src="${project.image}" alt="${project.alt}" class="project-card-image">
+            <img src="${project.image}" alt="${project.alt}" class="project-card-image" loading="lazy">
             <div class="project-card-content">
                 <div class="project-card-title-category"> 
                     <i><h3 class="project-card-title">${project.title}</h3></i>
@@ -164,8 +164,16 @@ categoryFilters.addEventListener("click", (event) => {
     const filter = event.target.closest(".project-category-filter");
     if (!filter) return;
 
+    const selectedCategory = filter.dataset.category;
+
     document.querySelectorAll(".project-card").forEach((card) => {
-        card.hidden = filter.dataset.category !== "all" && card.dataset.category !== filter.dataset.category;
+        const cardCategories = card.dataset.category.split(",").map(cat => cat.trim());
+        
+        if (selectedCategory === "all" || cardCategories.includes(selectedCategory)) {
+            card.style.display = ""; 
+        } else {
+            card.style.display = "none"; 
+        }
     });
 });
 
@@ -173,7 +181,7 @@ categoryFilters.addEventListener("click", (event) => {
 langBall.addEventListener("click", async () => {
     try {
         await translation.toggle();
-        const isEnglish = translation.language === "en_ca";
+        const isEnglish = translation.language === "en";
         langBall.classList.toggle("lang-ball--english", isEnglish);
         langBall.setAttribute("aria-pressed", String(isEnglish));
         langBall.setAttribute("aria-label", isEnglish ? "Passer au français" : "Passer à l'anglais");
@@ -182,4 +190,4 @@ langBall.addEventListener("click", async () => {
     }
 });
 
-translation.load("fr_ca").catch((error) => console.error(error));
+translation.load("fr").catch((error) => console.error(error));

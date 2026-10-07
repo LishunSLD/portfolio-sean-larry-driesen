@@ -2,7 +2,7 @@ const DATA_PATH = "./data/";
 
 // Charge les textes et applique les traductions aux éléments marqués.
 export class TranslationKey {
-    constructor({ defaultLanguage = "fr_ca", onLanguageChange } = {}) {
+    constructor({ defaultLanguage = "fr", onLanguageChange } = {}) {
         this.language = defaultLanguage;
         this.onLanguageChange = onLanguageChange;
         this.translations = {};
@@ -45,7 +45,7 @@ export class TranslationKey {
     }
 
     toggle() {
-        return this.load(this.language === "fr_ca" ? "en_ca" : "fr_ca");
+        return this.load(this.language === "fr" ? "en" : "fr");
     }
 }
 

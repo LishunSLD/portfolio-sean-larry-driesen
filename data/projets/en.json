@@ -1,5 +1,5 @@
 {
-    "categories": ["Video Game", "Design", "Animation", "Video", "Web", "3D Modelling", "3D Animation", "2D Animation"],
+    "categories": ["Video Game", "Video", "Web", "3D Modelling", "3D Animation", "2D Animation"],
     "projects": [
         {
             "title": "Soucou 3.5",
@@ -40,7 +40,7 @@
         {
             "title": "S.0.S.",
             "year": "2026",
-            "category": ["3D Animation", "Audiovisual treatment", "Audio"],
+            "category": ["3D Animation", " Audiovisual treatment", " Audio", " 3D Modelling"],
             "description": "A performance in which a walkie-talkie falls from a tower in the forest; the visual component explores the atmosphere of the forest and radio interference, while the work as a whole is a physical performance involving various controls.",
             "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsos.png",
             "alt": "S.O.S. Image",
