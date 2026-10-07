@@ -122,6 +122,9 @@ main {
     width: 100%;
     min-height: min(42rem, 100vh);
     margin-bottom: 2rem;
+    
+    animation: fading linear both;
+    animation-timeline: view();
 }
 
 .hero-title {
@@ -148,6 +151,11 @@ main {
 /* Presentation */
 
 .presentation {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation-container {
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -197,6 +205,9 @@ main {
     box-shadow: 0 -2px 16.1px 7px var(--glow-lime);
     margin: 1.5rem;
     width: min(22%, 18rem);
+
+    animation: fading linear both;
+    animation-timeline: view();
 }
 
 /* Projets */
@@ -380,6 +391,9 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    animation: fading linear both;
+    animation-timeline: view();
 }
 
 .demo video {
@@ -401,6 +415,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    animation: fading linear both;
+    animation-timeline: view();
 }
 
 .software-gallery-entry img {

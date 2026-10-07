@@ -27,40 +27,45 @@
 
         <div class="separator-bar"></div>
 
-        <section class="presentation" aria-labelledby="presentation-title">
-            <div class="presentation-card">
-                <img src="./assets/img/sld.png" alt="SLD" class="presentation-card-icon" loading="lazy">
-                <h2 id="presentation-title">Sean Larry Driesen</h2>
-                <p class="presentation-card-paragraph" data-i18n-key="presentation.description"></p>
-                <div class="presentation-card-socials" aria-label="Réseaux sociaux">
-                    <a href="mailto:seanlarrydriesen@gmail.com"><img src="./assets/icons/socials/email.png" alt="Courriel"></a>
-                </div>
-            </div>
+        <section class="presentation">
+            <h2 data-i18n-key="presentation.title" aria-labelledby="presentation-title">Présentation</h2>
 
-            <div class="category-cards-gallery">
-                <div class="cards-gallery-card">
-                    <img src="./assets/img/categoryjeuvideo.png" alt="Jeux vidéo" loading="lazy">
-                    <h3 data-i18n-key="skills.videogame">Jeux vidéos</h3>
+            <div class="presentation-container">
+                <div class="presentation-card">
+                    <img src="./assets/img/sld.png" alt="SLD" class="presentation-card-icon" loading="lazy">
+                    <h2 id="presentation-title">Sean Larry Driesen</h2>
+                    <p class="presentation-card-paragraph" data-i18n-key="presentation.description"></p>
+                    <div class="presentation-card-socials" aria-label="Réseaux sociaux">
+                        <a href="mailto:seanlarrydriesen@gmail.com"><img src="./assets/icons/socials/email.png"
+                                alt="Courriel"></a>
+                    </div>
                 </div>
-                <div class="cards-gallery-card">
-                    <img src="./assets/img/categoryweb.png" alt="Web" loading="lazy">
-                    <h3 data-i18n-key="skills.web">Web</h3>
-                </div>
-                <div class="cards-gallery-card">
-                    <img src="./assets/img/category3dmodel.png" alt="Modélisation 3D" loading="lazy">
-                    <h3 data-i18n-key="skills.model3d">Vidéo</h3>
-                </div>
-                <div class="cards-gallery-card">
-                    <img src="./assets/img/categoryvideo.png" alt="Video" loading="lazy">
-                    <h3 data-i18n-key="skills.video">Modélisation 3D</h3>
-                </div>
-                <div class="cards-gallery-card">
-                    <img src="./assets/img/categorykino.png" alt="Animation 2D" loading="lazy">
-                    <h3 data-i18n-key="skills.animation2d">Animation 3D</h3>
-                </div>
-                <div class="cards-gallery-card">
-                    <img src="./assets/img/category3d.png" alt="Animation 3D" loading="lazy">
-                    <h3 data-i18n-key="skills.animation3d">Animation 3D</h3>
+
+                <div class="category-cards-gallery">
+                    <div class="cards-gallery-card">
+                        <img src="./assets/img/categoryjeuvideo.png" alt="Jeux vidéo" loading="lazy">
+                        <h3 data-i18n-key="skills.videogame">Jeux vidéos</h3>
+                    </div>
+                    <div class="cards-gallery-card">
+                        <img src="./assets/img/categoryweb.png" alt="Web" loading="lazy">
+                        <h3 data-i18n-key="skills.web">Web</h3>
+                    </div>
+                    <div class="cards-gallery-card">
+                        <img src="./assets/img/category3dmodel.png" alt="Modélisation 3D" loading="lazy">
+                        <h3 data-i18n-key="skills.model3d">Vidéo</h3>
+                    </div>
+                    <div class="cards-gallery-card">
+                        <img src="./assets/img/categoryvideo.png" alt="Video" loading="lazy">
+                        <h3 data-i18n-key="skills.video">Modélisation 3D</h3>
+                    </div>
+                    <div class="cards-gallery-card">
+                        <img src="./assets/img/categorykino.png" alt="Animation 2D" loading="lazy">
+                        <h3 data-i18n-key="skills.animation2d">Animation 3D</h3>
+                    </div>
+                    <div class="cards-gallery-card">
+                        <img src="./assets/img/category3d.png" alt="Animation 3D" loading="lazy">
+                        <h3 data-i18n-key="skills.animation3d">Animation 3D</h3>
+                    </div>
                 </div>
             </div>
         </section>
@@ -77,7 +82,8 @@
 
         <dialog class="project-popup" aria-labelledby="project-popup-title">
             <article class="project-popup-content">
-                <button class="project-popup-close" type="button" data-i18n-aria-label="projects.closeProject">×</button>
+                <button class="project-popup-close" type="button"
+                    data-i18n-aria-label="projects.closeProject">×</button>
                 <div class="project-popup-main"></div>
                 <div class="project-popup-process"></div>
             </article>
@@ -88,7 +94,10 @@
         <section class="demo" aria-labelledby="demo-title">
             <h2 id="demo-title" data-i18n-key="demo.title">Demo reel</h2>
             <div class="demo-video">
-                <video src="./assets/video/demoreel.mp4" controls></video>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/p3aYaKvpc_U?si=6yT8jswXhCQw_yMS"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
 
@@ -98,43 +107,52 @@
             <h2 id="software-title" data-i18n-key="software.title">Logiciels</h2>
             <div class="software-gallery">
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/iconvscode.png" alt="VSCode" class="software-gallery-icon" loading="lazy">
+                    <img src="./assets/icons/software/iconvscode.png" alt="VSCode" class="software-gallery-icon"
+                        loading="lazy">
                     <h3 class="software-gallery-name">VSCode</h3>
                 </div>
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/iconfigma.png" alt="Figma" class="software-gallery-icon" >
+                    <img src="./assets/icons/software/iconfigma.png" alt="Figma" class="software-gallery-icon">
                     <h3 class="software-gallery-name">Figma</h3>
                 </div>
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/icondavinci.png" alt="Davinci Resolve" class="software-gallery-icon" loading="lazy">
+                    <img src="./assets/icons/software/icondavinci.png" alt="Davinci Resolve"
+                        class="software-gallery-icon" loading="lazy">
                     <h3 class="software-gallery-name">Davinci Resolve</h3>
                 </div>
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/iconmaya.png" alt="Autodesk Maya" class="software-gallery-icon" loading="lazy">
+                    <img src="./assets/icons/software/iconmaya.png" alt="Autodesk Maya" class="software-gallery-icon"
+                        loading="lazy">
                     <h3 class="software-gallery-name">Autodesk Maya</h3>
                 </div>
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/iconunity.png" alt="Unity" class="software-gallery-icon" loading="lazy">
+                    <img src="./assets/icons/software/iconunity.png" alt="Unity" class="software-gallery-icon"
+                        loading="lazy">
                     <h3 class="software-gallery-name">Unity</h3>
                 </div>
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/icongodot.png" alt="Godot" class="software-gallery-icon" loading="lazy">
+                    <img src="./assets/icons/software/icongodot.png" alt="Godot" class="software-gallery-icon"
+                        loading="lazy">
                     <h3 class="software-gallery-name">Godot</h3>
                 </div>
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/iconreaper.png" alt="Reaper" class="software-gallery-icon" loading="lazy">
+                    <img src="./assets/icons/software/iconreaper.png" alt="Reaper" class="software-gallery-icon"
+                        loading="lazy">
                     <h3 class="software-gallery-name">Reaper</h3>
                 </div>
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/iconmax8.png" alt="Max" class="software-gallery-icon" loading="lazy">
+                    <img src="./assets/icons/software/iconmax8.png" alt="Max" class="software-gallery-icon"
+                        loading="lazy">
                     <h3 class="software-gallery-name">Max8</h3>
                 </div>
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/icontouchdesigner.png" alt="Touchdesigner" class="software-gallery-icon" loading="lazy">
+                    <img src="./assets/icons/software/icontouchdesigner.png" alt="Touchdesigner"
+                        class="software-gallery-icon" loading="lazy">
                     <h3 class="software-gallery-name">Touchdesigner</h3>
                 </div>
                 <div class="software-gallery-entry">
-                    <img src="./assets/icons/software/iconadobe.png" alt="Adobe" class="software-gallery-icon" loading="lazy">
+                    <img src="./assets/icons/software/iconadobe.png" alt="Adobe" class="software-gallery-icon"
+                        loading="lazy">
                     <h3 class="software-gallery-name">Suite Adobe</h3>
                 </div>
             </div>
@@ -146,7 +164,8 @@
             <h2 id="contact-title" data-i18n-key="contact.title">Contact</h2>
             <p>seanlarrydriesen@gmail.com</p>
             <div class="contact-gallery">
-                <a href="mailto:seanlarrydriesen@gmail.com"><img src="./assets/icons/socials/email.png" alt="Courriel" class="contact-gallery-icon"></a>
+                <a href="mailto:seanlarrydriesen@gmail.com"><img src="./assets/icons/socials/email.png" alt="Courriel"
+                        class="contact-gallery-icon"></a>
             </div>
         </section>
     </main>
