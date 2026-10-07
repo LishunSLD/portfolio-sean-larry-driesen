@@ -212,7 +212,7 @@ categoryFilters.addEventListener("click", (event) => {
 langBall.addEventListener("click", async () => {
     try {
         await translation.toggle();
-        const isEnglish = translation.language === "en";
+        const isEnglish = translation.language === "en-CA";
         langBall.classList.toggle("lang-ball--english", isEnglish);
         langBall.setAttribute("aria-pressed", String(isEnglish));
         langBall.setAttribute("aria-label", isEnglish ? "Passer au français" : "Passer à l'anglais");
@@ -221,4 +221,4 @@ langBall.addEventListener("click", async () => {
     }
 });
 
-translation.load("fr").catch((error) => console.error(error));
+translation.load("fr-CA").catch((error) => console.error(error));

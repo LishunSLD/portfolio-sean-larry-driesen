@@ -23,16 +23,28 @@ html {
     scrollbar-color: var(--box-outline-lime) var(--background);
 }
 
-img, video {
+img,
+video {
     max-width: 100%;
 }
 
 /* Animation */
 
 @keyframes fading {
-  0%  {opacity: 0; transform: translateY(5rem);}
-  50% {opacity: 1; transform: translateY(0);}
-  100% {opacity: 0; transform: translateY(-5rem);}
+    0% {
+        opacity: 0;
+        transform: translateY(5rem);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-5rem);
+    }
 }
 
 /* Body */
@@ -59,16 +71,23 @@ body {
     border: 0;
     border-radius: 50%;
     background: var(--color-language-fr);
+    background-image: url(../../assets/icons/language/fr.png);
     cursor: pointer;
 }
 
 .lang-ball--english {
     background: var(--color-language-en);
+    background-image: url(../../assets/icons/language/en.png);
 }
 
 /* Texte */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Saira', 'Verdana';
     color: var(--text-light-green);
     text-shadow: 0 -2px 16.1px var(--glow-lime);
@@ -88,7 +107,8 @@ p {
     text-shadow: 0 -2px 16.1px var(--glow-lime);
 }
 
-a, button {
+a,
+button {
     font-family: 'Verdana';
     color: var(--text-light-green);
     text-shadow: 0 -2px 16.1px var(--glow-lime);
@@ -100,7 +120,11 @@ main {
     width: 100%;
 }
 
-.presentation, .projects, .demo, .software, .contact {
+.presentation,
+.projects,
+.demo,
+.software,
+.contact {
     width: min(105rem, 90%);
     margin: auto;
     padding: 4rem 0;
@@ -112,7 +136,7 @@ main {
     margin: 3rem auto;
     transform: scaleY(-1);
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 255, 19, 0.49) 29.33%, #C9FFCD 48.08%, rgba(0, 255, 19, 0.54) 65.87%, rgba(0, 0, 0, 0.00) 100%);
-    
+
     animation: fading linear both;
     animation-timeline: view();
 }
@@ -126,7 +150,7 @@ main {
     width: 100%;
     min-height: min(42rem, 100vh);
     margin-bottom: 2rem;
-    
+
     animation: fading linear both;
     animation-timeline: view();
 }
@@ -187,6 +211,14 @@ main {
     border: 5px solid var(--box-outline-light-green);
     box-shadow: 0 -2px 16.1px 7px var(--glow-lime);
     width: 12vw;
+}
+
+.presentation-card-socials {
+    margin-top: 3rem;
+}
+
+.presentation-card-socials img {
+    margin: 0.5rem;
 }
 
 .category-cards-gallery {
@@ -262,10 +294,10 @@ main {
 
 .project-card-content {
     display: grid;
-    grid-template-areas: 
-    "title-category . . . year"
-    "description description description . ."
-    "button tag tag tag tag";
+    grid-template-areas:
+        "title-category . . . year"
+        "description description description . ."
+        "button tag tag tag tag";
     margin: 2rem;
 }
 
@@ -293,8 +325,8 @@ main {
 
 .project-card-button {
     grid-area: button;
-    max-width: 8rem;
-    max-height: 2.5rem;
+    width: 10rem;
+    height: 2.5rem;
     text-align: center;
 }
 
@@ -483,7 +515,6 @@ main {
 
     .separator-bar {
         width: calc(100% - 2rem);
-        margin: 1.5rem auto;
     }
 
     .hero {
@@ -529,12 +560,13 @@ main {
 
     .project-category-filters {
         align-items: stretch;
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
     .project-category-filter {
         width: 100%;
-        min-height: 2.75rem;
+        height: 2.5rem;
+        width: 8rem;
     }
 
     .project-gallery {
@@ -597,6 +629,13 @@ main {
 
     .project-popup-process-layout {
         grid-template-columns: 1fr;
+    }
+
+    .presentation-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
     }
 
 }
