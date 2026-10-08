@@ -201,6 +201,7 @@ main {
     align-items: center;
     height: 100%;
     text-align: center;
+    width: 40rem;
 
     animation: fading linear both;
     animation-timeline: view();
