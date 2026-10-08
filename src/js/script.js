@@ -12,7 +12,7 @@ const translation = new TranslationKey({
     onLanguageChange: renderProjects
 });
 
-// Chargement projets de /data/projets
+// Chargement projets de /data/projets/
 async function loadProjectData(language) {
     const response = await fetch(`./data/projets/${language}.json`);
     if (!response.ok) {
@@ -24,7 +24,7 @@ async function loadProjectData(language) {
 // Création de cartes projets
 async function renderProjects(language) {
     const data = await loadProjectData(language);
-    categoryFilters.replaceChildren();
+    categoryFilters.replaceChildren(); // Remplace les enfants pour changement de langue
     projectGallery.replaceChildren();
 
     const allFilter = document.createElement("button");
@@ -32,7 +32,7 @@ async function renderProjects(language) {
     allFilter.type = "button";
     allFilter.textContent = translation.translate("projects.filterAll");
     allFilter.dataset.category = "all";
-    categoryFilters.append(allFilter);
+    categoryFilters.append(allFilter); // Ajouter au categories de filtres
 
     data.categories.forEach((category) => {
         const filter = document.createElement("button");
@@ -47,7 +47,7 @@ async function renderProjects(language) {
         const card = document.createElement("article");
         card.className = "project-card";
         card.dataset.category = project.category;
-        card.tabIndex = 0;
+        card.tabIndex = 0; // Ajouter à la navigation clavier
         card.setAttribute("role", "button");
         card.setAttribute("aria-label", `${translation.translate("projects.openProject")}: ${project.title}`);
         card.innerHTML = `
@@ -65,7 +65,8 @@ async function renderProjects(language) {
                 </div>
             </div>
         `;
-        card.addEventListener("click", () => openProjectPopup(project));
+        card.addEventListener("click", () => openProjectPopup(project)); // Ouvrir popup, navigation reguliere
+        // Navigation clavier
         card.addEventListener("keydown", (event) => {
             if (event.key === "Enter" || event.key === " ") {
                 event.preventDefault();
@@ -74,7 +75,7 @@ async function renderProjects(language) {
         });
         card.querySelector(".project-card-button").addEventListener("click", (event) => {
             event.preventDefault();
-        });
+        }); // Empecher de cliquer sur le bouton visuel. La carte au complet est le bouton pour le popup.
         projectGallery.append(card);
     });
 }
@@ -111,6 +112,7 @@ function openProjectPopup(project) {
 
     projectPopupMain.append(title, image, details, description, tags);
 
+    // Ajouter lien du projet au popup si la section est rempli
     if (project.link) {
         const link = document.createElement("a");
         link.className = "project-popup-link";
@@ -122,6 +124,7 @@ function openProjectPopup(project) {
     }
 
     const process = project.creationProcess;
+    // Ajouter le processus de création si la section est rempli
     if (process && (process.p1)) {
         const processTitle = document.createElement("h3");
         processTitle.textContent = translation.translate("projects.creationProcess");
@@ -192,7 +195,7 @@ projectPopup.addEventListener("click", (event) => {
 
 // Filtres
 categoryFilters.addEventListener("click", (event) => {
-    const filter = event.target.closest(".project-category-filter");
+    const filter = event.target.closest(".project-category-filter"); // Cibler la classe de ce type la plus proche du filtre
     if (!filter) return;
 
     const selectedCategory = filter.dataset.category;
@@ -200,6 +203,7 @@ categoryFilters.addEventListener("click", (event) => {
     document.querySelectorAll(".project-card").forEach((card) => {
         const cardCategories = card.dataset.category.split(",").map(cat => cat.trim());
         
+        // Si le bouton de filtre selectionné est ALL ou la catégorie correspondante, montrer la carte, sinon cacher
         if (selectedCategory === "all" || cardCategories.includes(selectedCategory)) {
             card.style.display = ""; 
         } else {
@@ -213,7 +217,7 @@ langBall.addEventListener("click", async () => {
     try {
         await translation.toggle();
         const isEnglish = translation.language === "en-CA";
-        langBall.classList.toggle("lang-ball--english", isEnglish);
+        langBall.classList.toggle("lang-ball--english", isEnglish); // Si anglais, appliquer la classe anglais
         langBall.setAttribute("aria-pressed", String(isEnglish));
         langBall.setAttribute("aria-label", isEnglish ? "Passer au français" : "Passer à l'anglais");
     } catch (error) {
