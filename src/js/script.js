@@ -99,7 +99,7 @@ function openProjectPopup(project) {
 
     const details = document.createElement("p");
     details.className = "project-popup-details";
-    details.textContent = `${project.category} · ${project.year}`;
+    details.textContent = `${project.category[0]} · ${project.year}`;
 
     const tags = document.createElement("div");
     tags.className = "project-popup-tags";
