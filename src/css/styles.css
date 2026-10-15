@@ -72,12 +72,19 @@ body {
     border-radius: 50%;
     background: var(--color-language-fr);
     background-image: url(../../assets/icons/language/fr.png);
+    opacity: 0.7;
     cursor: pointer;
+
+    transition: 0.3s;
 }
 
 .lang-ball--english {
     background: var(--color-language-en);
     background-image: url(../../assets/icons/language/en.png);
+}
+
+.lang-ball:hover {
+    opacity: 1;
 }
 
 /* Texte */
@@ -220,6 +227,12 @@ main {
 
 .presentation-card-socials img {
     margin: 0.5rem;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.presentation-card-socials img:hover {
+    opacity: 1;
 }
 
 .category-cards-gallery {
@@ -265,6 +278,15 @@ main {
     background: transparent;
     text-decoration: none;
     cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.project-category-filter:hover,
+.project-card-button:hover {
+    padding: 0.7rem 1.1rem;
+    background-color: var(--text-light-green);
+    box-shadow: 0 -2px 3px 3px var(--text-lighter-green);
 }
 
 .project-gallery {
@@ -491,6 +513,15 @@ main {
 
 .contact {
     text-align: center;
+}
+
+.contact-gallery-icon {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.contact-gallery-icon:hover {
+    opacity: 1;
 }
 
 @media (max-width: 45rem) {
