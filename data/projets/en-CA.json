@@ -1,12 +1,12 @@
 {
-    "categories": ["Video Game", "Video", "Web", "3D Modelling", "3D Animation"],
+    "categories": ["Video Game", "Video", "3D Modelling", "3D Animation"],
     "projects": [
         {
             "title": "Soucou 3.5",
             "year": "2025",
             "category": ["Video Game"],
             "description": "A video game where the progression involves searching for keys in a basement, leading to a final battle that requires dodging and deflecting projectiles.",
-            "image": "https://lishunsld.github.io/portfolio-sean-larry-driesen/assets/img/projects/projectsoucou.png",
+            "image": "./assets/img/projects/projectsoucou.png",
             "alt": "Soucou Image",
             "tags": ["Solo", "Academic"],
             "link": "https://lishunsld.github.io/interactivite-ludique-tp3/"
@@ -29,7 +29,7 @@
                 "p3": "Game graphics—including textures for towers, enemies, and menus—were created using Pixelorama. The environment utilizes textures reused from a personal project of ours (a mod for the game *Mindustry*). Menu graphics were created in Figma and exported.",
                 "p4_title": "Assembly",
                 "p4": "The graphics and design concepts were assembled within the game engine to build the game, applying the correct textures, names, and data for towers, maps, and enemies.",
-                "p5_title": "Balancing and Testing",
+                "p5_title": "Quality Control",
                 "p5": "We then tested the game to ensure proper progression. Adjustments were made to variables such as player income, tower costs, and enemy health to improve the overall gameplay experience.",
                 "p6_title": "Publication",
                 "p6": "Finally, the game was published on a website—in our case, hosted on GitHub Pages.",

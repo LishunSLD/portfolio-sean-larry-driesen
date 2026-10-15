@@ -9,7 +9,7 @@
     },
     "presentation": {
         "title": "Présentation",
-        "description": "Je suis Sean Larry Driesen, finissant de troisième année en Technique d'intégration multimédia. Je suis intéressé à la conception et réalisation de projets créatifs, particulièrement dans le domaine du développement de jeu vidéos et montage vidéo."
+        "description": "Je suis Sean Larry Driesen, finissant en Techniques d'intégration multimédia. Je suis intéressé par la conception et la réalisation de projets créatifs, particulièrement dans les domaines du développement des jeux vidéos et du montage vidéo."
     },
     "skills": {
         "videogame": "Jeu vidéo",
@@ -24,7 +24,7 @@
     "projects": {
         "title": "Projets",
         "filterLabel": "Filtrer les projets",
-        "filterAll": "Tous les projects",
+        "filterAll": "Tous les projets",
         "openProject": "Voir projet",
         "closeProject": "Fermer le projet",
         "visitProject": "Voir le projet",
