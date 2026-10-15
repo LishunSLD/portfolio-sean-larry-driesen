@@ -433,7 +433,6 @@ main {
 .project-card-process-description section {
     display: flex;
     align-items: center;
-    text-align: center;
     margin: 2rem;
     gap: 2rem;
 }
