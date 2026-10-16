@@ -9,7 +9,9 @@
             "image": "./assets/img/projects/projectsoucou.png",
             "alt": "Soucou Image",
             "tags": ["Solo", "Academic"],
-            "link": "https://lishunsld.github.io/interactivite-ludique-tp3/"
+            "link": "https://lishunsld.github.io/interactivite-ludique-tp3/",
+            "role": "Developer",
+            "software": "Godot, VSCode, Pixelorama"
         },
         {
             "title": "AdvanceTD",
@@ -20,6 +22,8 @@
             "alt": "AdvanceTD Image",
             "tags": ["Team", "Academic"],
             "link": "https://quaduction.github.io/advancetd/",
+            "role": "Artist, level designer, game designer",
+            "software": "Godot, VSCode, Figma, Pixelorama",
             "creationProcess": {
                 "p1_title": "Design",
                 "p1": "The game was designed by defining the necessary components, including various levels, a shop, towers, enemies, a path, and several menus. A variety of towers and enemies were designed to create a linear progression.",
@@ -45,11 +49,13 @@
             "title": "Infiltration",
             "year": "2025",
             "category": ["Video"],
-            "description": "A short film about infiltrating a border post in a supposedly authoritarian country during the Cold War.",
+            "description": "A short stop-motion film about infiltrating a border post in a supposedly authoritarian country during the Cold War.",
             "image": "./assets/img/projects/projectinfiltration.png",
             "alt": "Infiltration Image",
             "tags": ["Team", "Academic"],
             "link": "https://youtu.be/YMOVN4iExQQ",
+            "role": "Director, video editor, cameraman",
+            "software": "Davinci Resolve, Dragonframe",
             "creationProcess": {}
         },
         {
@@ -61,6 +67,8 @@
             "alt": "S.O.S. Image",
             "tags": ["Solo", "Academic"],
             "link": "https://youtu.be/T8eTvGL_onw",
+            "role": "Director, programmer, video editor, audio editor, 3D animator, 3D modeler",
+            "software": "Autodesk Maya, Touchdesigner, Max8, Reaper",
             "creationProcess": {}
         }
     ]

@@ -10,6 +10,8 @@
             "alt": "Image de Soucou",
             "tags": ["Solo", "Académique"],
             "link": "https://lishunsld.github.io/interactivite-ludique-tp3/",
+            "role": "Développeur",
+            "software": "Godot, VSCode, Pixelorama",
             "creationProcess": {}
         },
         {
@@ -21,6 +23,8 @@
             "alt": "Image de AdvanceTD",
             "tags": ["Équipe", "Académique"],
             "link": "https://quaduction.github.io/advancetd/",
+            "role": "Artiste, designeur de niveau, designeur de jeu",
+            "software": "Godot, VSCode, Figma, Pixelorama",
             "creationProcess": {
                 "p1_title": "Conception",
                 "p1": "Le jeu a été conçu en définissant les composantes nécessaires, dont différents niveaux, un magasin, des tours, des ennemis, un chemin, plusieurs menus. Plusieurs tours et ennemis différents ont été conçus pour créer une progression linéaire.",
@@ -46,11 +50,13 @@
             "title": "Infiltration",
             "year": "2025",
             "category": ["Vidéo"],
-            "description": "Un court métrage sur le thème d'une infiltration à un poste frontalier dans un pays supposément autoritaire durant la Guerre froide.",
+            "description": "Un court métrage en stop-motion sur le thème d'une infiltration à un poste frontalier dans un pays supposément autoritaire durant la Guerre froide.",
             "image": "./assets/img/projects/projectinfiltration.png",
             "alt": "Image de Infiltration",
             "tags": ["Équipe", "Académique"],
             "link": "https://youtu.be/YMOVN4iExQQ",
+            "role": "Réalisateur, monteur vidéo, caméraman",
+            "software": "Davinci Resolve, Dragonframe",
             "creationProcess": {}
         },
         {
@@ -62,6 +68,8 @@
             "alt": "Image de S.O.S.",
             "tags": ["Solo", "Académique"],
             "link": "https://youtu.be/T8eTvGL_onw",
+            "role": "Réalisateur, programmeur, monteur vidéo, monteur audio, animateur 3D, modélisateur 3D",
+            "software": "Autodesk Maya, Touchdesigner, Max8, Reaper",
             "creationProcess": {}
         }
     ]

@@ -101,6 +101,10 @@ function openProjectPopup(project) {
     details.className = "project-popup-details";
     details.textContent = `${project.category[0]} · ${project.year}`;
 
+    const creation_info = document.createElement("p");
+    creation_info.className = "project-popup-details";
+    creation_info.textContent = `${project.role} · ${project.software}`;
+
     const tags = document.createElement("div");
     tags.className = "project-popup-tags";
     project.tags.forEach((tag) => {
@@ -110,7 +114,7 @@ function openProjectPopup(project) {
         tags.append(tagElement);
     });
 
-    projectPopupMain.append(title, image, details, description, tags);
+    projectPopupMain.append(title, image, details, creation_info, description, tags);
 
     // Ajouter lien du projet au popup si la section est rempli
     if (project.link) {
