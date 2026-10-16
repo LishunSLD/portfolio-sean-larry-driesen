@@ -95,7 +95,7 @@ function openProjectPopup(project) {
     image.alt = project.title;
 
     const description = document.createElement("p");
-    description.textContent = project.description;
+    description.textContent = project.description_long;
 
     const details = document.createElement("p");
     details.className = "project-popup-details";
